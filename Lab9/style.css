@@ -1,0 +1,153 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.perfilUser{
+    width: 38px; 
+}
+.comenta{
+    border-radius: 10px;
+    width: 280px;
+    border-color: transparent;
+    height: 26.5px;
+    font-size: 10px;
+    background-color: rgba(255, 255, 255, 0.717);
+    text-align: left;
+}
+.comenta::-webkit-input-placeholder{
+    padding-left: 3px;
+}
+.on{
+    background-color: rgba(255, 166, 0, 0.769);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+    border-radius: 20px;
+    width: 480px;
+    gap: 5px;
+}
+.contenedor1{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+}
+h1{
+    font-size: 13.5px;
+    font-weight: 600;
+}
+.x{
+    width: 15px;
+    margin-left: 320px;
+    margin-top: -37.2px;
+}
+.nombre{
+    font-size: 10px;
+    font-weight: 100;
+    margin-right: 180px;
+    margin-top: -31px;
+}
+.comenta2{
+    border-radius: 10px;
+    width: 280px;
+    border-color: transparent;
+    height: 20px;
+    font-size: 10px;
+    background-color: transparent;
+    outline: none;
+    margin-right: 62px;
+    margin-top: -15px;
+}
+.comenta2::-webkit-input-placeholder{
+    padding-left: 3px;
+}
+.publicarBtn{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgb(230, 123, 1);
+    color: white;
+    font-size: 11px;
+    width: 360px;
+    margin-top: 55px;
+}
+.publicarBtn2{
+    border-radius: 5px;
+    border-color: transparent;
+    background-color: rgba(33, 33, 33, 0.938);
+    color: white;
+    font-size: 11px;
+    width: 360px;
+    margin-top: 55px;
+}
+.modal{
+    background-color: rgb(255, 166, 0);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 15px;
+    width: 380px;
+    gap: 10px;
+    display: none;
+    position: fixed;
+    top: 80px;
+}
+.modal-container{
+    display: flex;
+    justify-items: center;
+    padding-left: 151.5px;
+    margin-top: -125px;
+}
+.perfilUser2{
+    width: 32px;
+    margin-right: 310px;
+}
+.mostrarModal{
+    display: flex;
+    position: fixed;
+    z-index: 3;
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.605);
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.mostrarOverlay{
+    display: block;
+}
+.perfilUser3{
+    width: 32px;
+    position: absolute;
+    left: 20px;
+}
+.nombre2{
+    font-size: 10px;
+    font-weight: 100;
+    position: absolute;
+    left: 60px;
+}
+.publicar2{
+    background-color: rgba(255, 166, 0, 0.769);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+    border-radius: 20px;
+    width: 480px;
+    gap: 15px;
+}
+.estiloC{
+    position: absolute;
+    top: 230px;
+    left: 107px;
+    display: flex;
+    align-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+}
