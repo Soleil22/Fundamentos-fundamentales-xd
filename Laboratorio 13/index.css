@@ -1,0 +1,75 @@
+body{
+    font-family: 'Poppins';
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+.contenedor1{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding-top: 50px;
+}
+.title{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    margin: 2px;
+    color: rgb(108, 1, 122);
+}
+.contenedor2{
+    background-color: rgb(141, 65, 156);
+    border-radius: 10px;
+    width: 30vw;
+    margin: 5px;
+    padding: 10px;
+    height: 100%;
+}
+.contenedor2 p{
+    font-weight: bolder;
+    color: aliceblue;
+    text-align: center;
+}
+.task{
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.task p{
+    color: rgb(39, 39, 74);
+    font-weight: normal;
+    margin: 2px;
+}
+button{
+    background-color: rgb(111, 2, 131);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: aliceblue;
+    border-radius: 5px;
+    border: none;
+}
+.atras{
+    background-color: rgb(87, 86, 86);
+}
+.adelante{
+    background-color: rgb(14, 156, 21);
+}
+.x{
+    align-self: self-end;
+}
+input{
+    border-radius: 5px;
+    border-style: solid;
+    border-color: rgb(114, 0, 127);
+    border-width: 1px;
+    padding: 5px;
+    
+}
